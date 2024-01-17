@@ -1,5 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(224, 209, 245);
+    padding: 23px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: black;
+  transition-duration: 500ms;
+}
+
+nav li a:hover{
+ color: rgb(71, 24, 146);
+}
+
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+.container {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: red; */
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1, h2 {
+    /* text-align: center; */
+    margin: 23px 0;
+}
+
+.container form input[type='number'], select, label{
+    /* background-color: red; */
+    font-size: 25px;
+    margin: 23px 0;
+    width: 23vw;
+}
+.container form label{
+    /* background-color: red; */
+    font-size: 25px;
+    /* margin: 13px 0; */
+    margin-bottom: 23px;
+}
+
+.btn {
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.output {
+    display: none;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
